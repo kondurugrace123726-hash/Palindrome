@@ -22,3 +22,8 @@ class Solution:
         # For even digits: x == reversed_half
         # For odd digits: x == reversed_half // 10
         return x == reversed_half or x == reversed_half // 10
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.isPalindrome(121))   # True
+    print(sol.isPalindrome(-121))  # False
+    print(sol.isPalindrome(10))    # False
